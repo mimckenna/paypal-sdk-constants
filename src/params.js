@@ -14,7 +14,8 @@ export const SDK_SETTINGS = {
     SDK_INTEGRATION_SOURCE: ('data-sdk-integration-source' : 'data-sdk-integration-source'),
     USER_ID_TOKEN:          ('data-user-id-token' : 'data-user-id-token'),
     AMOUNT:                 ('data-amount' : 'data-amount'),
-    CLIENT_METADATA_ID:     ('data-client-metadata-id' : 'data-client-metadata-id')
+    CLIENT_METADATA_ID:     ('data-client-metadata-id' : 'data-client-metadata-id'),
+    PAGE_TYPE:              ('data-page-type' : 'data-page-type')
 };
 
 export const SDK_QUERY_KEYS = {
@@ -36,10 +37,12 @@ export const SDK_QUERY_KEYS = {
 
     BUYER_COUNTRY: ('buyer-country' : 'buyer-country'),
 
+    ENABLE_FUNDING:  ('enable-funding' : 'enable-funding'),
     DISABLE_FUNDING: ('disable-funding' : 'disable-funding'),
     DISABLE_CARD:    ('disable-card' : 'disable-card'),
 
-    INTEGRATION_DATE: ('integration-date' : 'integration-date')
+    INTEGRATION_DATE: ('integration-date' : 'integration-date'),
+    STAGE_HOST:       ('stage-host' : 'stage-host')
 };
 
 export const COMPONENTS = {
@@ -62,6 +65,13 @@ export const UNKNOWN = ('unknown' : 'unknown');
 export const PROTOCOL = {
     HTTP:  ('http' : 'http'),
     HTTPS: ('https' : 'https')
+};
+
+export const PAGE_TYPES = {
+    HOME:       ('home' : 'home'),
+    PRODUCT:    ('product' : 'product'),
+    CART:       ('cart' : 'cart'),
+    CHECKOUT:   ('checkout' : 'checkout')
 };
 
 export const MERCHANT_ID_MAX = 10;

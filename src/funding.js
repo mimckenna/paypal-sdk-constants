@@ -5,6 +5,7 @@ export const FUNDING = {
     VENMO:          ('venmo' : 'venmo'),
     ITAU:           ('itau' : 'itau'),
     CREDIT:         ('credit' : 'credit'),
+    PAYLATER:       ('paylater' : 'paylater'),
     CARD:           ('card' : 'card'),
     IDEAL:          ('ideal' : 'ideal'),
     SEPA:           ('sepa' : 'sepa'),
@@ -22,7 +23,13 @@ export const FUNDING = {
     MAXIMA:         ('maxima' : 'maxima'),
     OXXO:           ('oxxo' : 'oxxo'),
     BOLETO:         ('boleto' : 'boleto'),
-    WECHATPAY:      ('wechatpay' : 'wechatpay')
+    WECHATPAY:      ('wechatpay' : 'wechatpay'),
+    MERCADOPAGO:    ('mercadopago' : 'mercadopago')
+};
+
+export const FUNDING_BRAND_LABEL = {
+    PAYPAL:         ('PayPal' : 'PayPal'),
+    CREDIT:         ('PayPal Credit' : 'PayPal Credit')
 };
 
 export const CARD = {
@@ -41,4 +48,10 @@ export const WALLET_INSTRUMENT = {
     CARD:    ('card' : 'card'),
     BANK:    ('bank' : 'bank'),
     CREDIT:  ('credit' : 'credit')
+};
+
+export const FUNDING_PRODUCTS = {
+    PAY_IN_4: ('payIn4' : 'payIn4'),
+    FLEX:     ('flex' : 'flex'),
+    CREDIT:   ('credit' : 'credit')
 };
